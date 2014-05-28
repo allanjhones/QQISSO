@@ -29,6 +29,7 @@
     
     UIScrollView *scr=[[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     scr.tag = 1;
+    scr.userInteractionEnabled = NO;
     scr.autoresizingMask=UIViewAutoresizingNone;
     [self.view addSubview:scr];
     [self setupScrollView:scr];
