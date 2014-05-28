@@ -19,6 +19,12 @@
 		83D0B9E7193657930066DB81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0B9CF193657930066DB81 /* UIKit.framework */; };
 		83D0B9EF193657930066DB81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D0B9ED193657930066DB81 /* InfoPlist.strings */; };
 		83D0B9F1193657930066DB81 /* QQISSOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0B9F0193657930066DB81 /* QQISSOTests.m */; };
+		83D0BA0219365C0D0066DB81 /* ComidasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA0019365C0D0066DB81 /* ComidasViewController.m */; };
+		83D0BA0319365C0D0066DB81 /* ComidasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0BA0119365C0D0066DB81 /* ComidasViewController.xib */; };
+		83D0BA0719365C2B0066DB81 /* EscolhaTemasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA0519365C2B0066DB81 /* EscolhaTemasViewController.m */; };
+		83D0BA0819365C2B0066DB81 /* EscolhaTemasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0BA0619365C2B0066DB81 /* EscolhaTemasViewController.xib */; };
+		83D0BA0D19365C5F0066DB81 /* FilmesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA0B19365C5F0066DB81 /* FilmesViewController.m */; };
+		83D0BA0E19365C5F0066DB81 /* FilmesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0BA0C19365C5F0066DB81 /* FilmesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		83D0B9EC193657930066DB81 /* QQISSOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QQISSOTests-Info.plist"; sourceTree = "<group>"; };
 		83D0B9EE193657930066DB81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83D0B9F0193657930066DB81 /* QQISSOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQISSOTests.m; sourceTree = "<group>"; };
+		83D0B9FF19365C0D0066DB81 /* ComidasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComidasViewController.h; sourceTree = "<group>"; };
+		83D0BA0019365C0D0066DB81 /* ComidasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComidasViewController.m; sourceTree = "<group>"; };
+		83D0BA0119365C0D0066DB81 /* ComidasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComidasViewController.xib; sourceTree = "<group>"; };
+		83D0BA0419365C2B0066DB81 /* EscolhaTemasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EscolhaTemasViewController.h; sourceTree = "<group>"; };
+		83D0BA0519365C2B0066DB81 /* EscolhaTemasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EscolhaTemasViewController.m; sourceTree = "<group>"; };
+		83D0BA0619365C2B0066DB81 /* EscolhaTemasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EscolhaTemasViewController.xib; sourceTree = "<group>"; };
+		83D0BA0A19365C5F0066DB81 /* FilmesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmesViewController.h; sourceTree = "<group>"; };
+		83D0BA0B19365C5F0066DB81 /* FilmesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmesViewController.m; sourceTree = "<group>"; };
+		83D0BA0C19365C5F0066DB81 /* FilmesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilmesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +171,9 @@
 		83D0B9FB19365B250066DB81 /* escolha_de_temas */ = {
 			isa = PBXGroup;
 			children = (
+				83D0BA0419365C2B0066DB81 /* EscolhaTemasViewController.h */,
+				83D0BA0519365C2B0066DB81 /* EscolhaTemasViewController.m */,
+				83D0BA0619365C2B0066DB81 /* EscolhaTemasViewController.xib */,
 			);
 			name = escolha_de_temas;
 			sourceTree = "<group>";
@@ -172,8 +190,30 @@
 		83D0B9FD19365B4F0066DB81 /* fases */ = {
 			isa = PBXGroup;
 			children = (
+				83D0BA0919365C510066DB81 /* filmes */,
+				83D0B9FE19365BF50066DB81 /* comidas */,
 			);
 			name = fases;
+			sourceTree = "<group>";
+		};
+		83D0B9FE19365BF50066DB81 /* comidas */ = {
+			isa = PBXGroup;
+			children = (
+				83D0B9FF19365C0D0066DB81 /* ComidasViewController.h */,
+				83D0BA0019365C0D0066DB81 /* ComidasViewController.m */,
+				83D0BA0119365C0D0066DB81 /* ComidasViewController.xib */,
+			);
+			name = comidas;
+			sourceTree = "<group>";
+		};
+		83D0BA0919365C510066DB81 /* filmes */ = {
+			isa = PBXGroup;
+			children = (
+				83D0BA0A19365C5F0066DB81 /* FilmesViewController.h */,
+				83D0BA0B19365C5F0066DB81 /* FilmesViewController.m */,
+				83D0BA0C19365C5F0066DB81 /* FilmesViewController.xib */,
+			);
+			name = filmes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +291,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D0BA0E19365C5F0066DB81 /* FilmesViewController.xib in Resources */,
+				83D0BA0319365C0D0066DB81 /* ComidasViewController.xib in Resources */,
 				83D0B9D6193657930066DB81 /* InfoPlist.strings in Resources */,
 				83D0B9DE193657930066DB81 /* Images.xcassets in Resources */,
+				83D0BA0819365C2B0066DB81 /* EscolhaTemasViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +316,9 @@
 			files = (
 				83D0B9DC193657930066DB81 /* AppDelegate.m in Sources */,
 				83D0B9D8193657930066DB81 /* main.m in Sources */,
+				83D0BA0219365C0D0066DB81 /* ComidasViewController.m in Sources */,
+				83D0BA0D19365C5F0066DB81 /* FilmesViewController.m in Sources */,
+				83D0BA0719365C2B0066DB81 /* EscolhaTemasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
