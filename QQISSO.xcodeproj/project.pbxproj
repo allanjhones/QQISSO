@@ -107,8 +107,10 @@
 		83D0B9D1193657930066DB81 /* QQISSO */ = {
 			isa = PBXGroup;
 			children = (
-				83D0B9DA193657930066DB81 /* AppDelegate.h */,
-				83D0B9DB193657930066DB81 /* AppDelegate.m */,
+				83D0B9FD19365B4F0066DB81 /* fases */,
+				83D0B9FC19365B390066DB81 /* app_delegate */,
+				83D0B9FB19365B250066DB81 /* escolha_de_temas */,
+				83D0B9FA19365AFF0066DB81 /* tela_inicial */,
 				83D0B9DD193657930066DB81 /* Images.xcassets */,
 				83D0B9D2193657930066DB81 /* Supporting Files */,
 			);
@@ -142,6 +144,36 @@
 				83D0B9ED193657930066DB81 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83D0B9FA19365AFF0066DB81 /* tela_inicial */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tela_inicial;
+			sourceTree = "<group>";
+		};
+		83D0B9FB19365B250066DB81 /* escolha_de_temas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = escolha_de_temas;
+			sourceTree = "<group>";
+		};
+		83D0B9FC19365B390066DB81 /* app_delegate */ = {
+			isa = PBXGroup;
+			children = (
+				83D0B9DA193657930066DB81 /* AppDelegate.h */,
+				83D0B9DB193657930066DB81 /* AppDelegate.m */,
+			);
+			name = app_delegate;
+			sourceTree = "<group>";
+		};
+		83D0B9FD19365B4F0066DB81 /* fases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = fases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
