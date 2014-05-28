@@ -27,8 +27,10 @@
 		83D0BA0E19365C5F0066DB81 /* FilmesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0BA0C19365C5F0066DB81 /* FilmesViewController.xib */; };
 		83D0BA1219365CE00066DB81 /* TelaInicialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA1019365CE00066DB81 /* TelaInicialViewController.m */; };
 		83D0BA1319365CE00066DB81 /* TelaInicialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0BA1119365CE00066DB81 /* TelaInicialViewController.xib */; };
-		83D0BA16193660970066DB81 /* PlayFilmeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA15193660970066DB81 /* PlayFilmeScrollView.m */; };
 		83D0BA19193660F90066DB81 /* PlayComidasScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA18193660F90066DB81 /* PlayComidasScrollView.m */; };
+		83D0BA1C193663EB0066DB81 /* PagFilmesScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA1B193663EB0066DB81 /* PagFilmesScrollView.m */; };
+		83D0BA20193664060066DB81 /* PlayFilmesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA1E193664060066DB81 /* PlayFilmesViewController.m */; };
+		83D0BA21193664060066DB81 /* PlayFilmesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0BA1F193664060066DB81 /* PlayFilmesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,10 +72,13 @@
 		83D0BA0F19365CE00066DB81 /* TelaInicialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelaInicialViewController.h; sourceTree = "<group>"; };
 		83D0BA1019365CE00066DB81 /* TelaInicialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelaInicialViewController.m; sourceTree = "<group>"; };
 		83D0BA1119365CE00066DB81 /* TelaInicialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelaInicialViewController.xib; sourceTree = "<group>"; };
-		83D0BA14193660970066DB81 /* PlayFilmeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayFilmeScrollView.h; sourceTree = "<group>"; };
-		83D0BA15193660970066DB81 /* PlayFilmeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayFilmeScrollView.m; sourceTree = "<group>"; };
 		83D0BA17193660F90066DB81 /* PlayComidasScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayComidasScrollView.h; sourceTree = "<group>"; };
 		83D0BA18193660F90066DB81 /* PlayComidasScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayComidasScrollView.m; sourceTree = "<group>"; };
+		83D0BA1A193663EB0066DB81 /* PagFilmesScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagFilmesScrollView.h; sourceTree = "<group>"; };
+		83D0BA1B193663EB0066DB81 /* PagFilmesScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagFilmesScrollView.m; sourceTree = "<group>"; };
+		83D0BA1D193664060066DB81 /* PlayFilmesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayFilmesViewController.h; sourceTree = "<group>"; };
+		83D0BA1E193664060066DB81 /* PlayFilmesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayFilmesViewController.m; sourceTree = "<group>"; };
+		83D0BA1F193664060066DB81 /* PlayFilmesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayFilmesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,8 +233,11 @@
 				83D0BA0A19365C5F0066DB81 /* FilmesViewController.h */,
 				83D0BA0B19365C5F0066DB81 /* FilmesViewController.m */,
 				83D0BA0C19365C5F0066DB81 /* FilmesViewController.xib */,
-				83D0BA14193660970066DB81 /* PlayFilmeScrollView.h */,
-				83D0BA15193660970066DB81 /* PlayFilmeScrollView.m */,
+				83D0BA1A193663EB0066DB81 /* PagFilmesScrollView.h */,
+				83D0BA1B193663EB0066DB81 /* PagFilmesScrollView.m */,
+				83D0BA1D193664060066DB81 /* PlayFilmesViewController.h */,
+				83D0BA1E193664060066DB81 /* PlayFilmesViewController.m */,
+				83D0BA1F193664060066DB81 /* PlayFilmesViewController.xib */,
 			);
 			name = filmes;
 			sourceTree = "<group>";
@@ -310,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D0BA0E19365C5F0066DB81 /* FilmesViewController.xib in Resources */,
+				83D0BA21193664060066DB81 /* PlayFilmesViewController.xib in Resources */,
 				83D0BA0319365C0D0066DB81 /* ComidasViewController.xib in Resources */,
 				83D0BA1319365CE00066DB81 /* TelaInicialViewController.xib in Resources */,
 				83D0B9D6193657930066DB81 /* InfoPlist.strings in Resources */,
@@ -335,10 +344,11 @@
 			files = (
 				83D0BA1219365CE00066DB81 /* TelaInicialViewController.m in Sources */,
 				83D0B9DC193657930066DB81 /* AppDelegate.m in Sources */,
+				83D0BA1C193663EB0066DB81 /* PagFilmesScrollView.m in Sources */,
 				83D0BA19193660F90066DB81 /* PlayComidasScrollView.m in Sources */,
 				83D0B9D8193657930066DB81 /* main.m in Sources */,
+				83D0BA20193664060066DB81 /* PlayFilmesViewController.m in Sources */,
 				83D0BA0219365C0D0066DB81 /* ComidasViewController.m in Sources */,
-				83D0BA16193660970066DB81 /* PlayFilmeScrollView.m in Sources */,
 				83D0BA0D19365C5F0066DB81 /* FilmesViewController.m in Sources */,
 				83D0BA0719365C2B0066DB81 /* EscolhaTemasViewController.m in Sources */,
 			);

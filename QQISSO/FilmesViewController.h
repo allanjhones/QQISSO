@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FilmesViewController : UIViewController
+- (IBAction)action_go1:(id)sender;
+
 
 @end

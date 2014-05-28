@@ -1,18 +1,17 @@
 //
-//  FilmesViewController.m
+//  PlayFilmesViewController.m
 //  QQISSO
 //
 //  Created by Allan Jhones Ribeiro de Souza on 28/05/14.
 //  Copyright (c) 2014 Allan Jhones Ribeiro de Souza. All rights reserved.
 //
 
-#import "FilmesViewController.h"
 #import "PlayFilmesViewController.h"
-@interface FilmesViewController ()
-
+#import "PagFilmesScrollView.h"
+@interface PlayFilmesViewController ()
 @end
 
-@implementation FilmesViewController
+@implementation PlayFilmesViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +25,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+   
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,8 +34,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)action_go1:(id)sender {
-  
-
-}
 @end

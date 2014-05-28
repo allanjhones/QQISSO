@@ -1,5 +1,5 @@
 //
-//  PlayFilmeScrollView.h
+//  PagFilmesScrollView.h
 //  QQISSO
 //
 //  Created by Allan Jhones Ribeiro de Souza on 28/05/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PlayFilmeScrollView : UIScrollView
+@interface PagFilmesScrollView : UIScrollView
 
 @end
