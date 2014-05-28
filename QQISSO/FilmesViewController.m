@@ -27,7 +27,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+   
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -36,7 +39,10 @@
 }
 
 - (IBAction)action_go1:(id)sender {
-  
+    PlayFilmesViewController *p = [[PlayFilmesViewController alloc]init];
+    
+    [self presentViewController:p animated:YES completion:nil];
+
 
 }
 @end

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8313C51819367DC900DB0285 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8313C51619367DC900DB0285 /* 0.png */; };
+		8313C51919367DC900DB0285 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8313C51719367DC900DB0285 /* 1.png */; };
+		8313C51E19367DD400DB0285 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8313C51A19367DD400DB0285 /* 2.png */; };
+		8313C51F19367DD400DB0285 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8313C51B19367DD400DB0285 /* 3.png */; };
+		8313C52019367DD400DB0285 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8313C51C19367DD400DB0285 /* 4.png */; };
+		8313C52119367DD400DB0285 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8313C51D19367DD400DB0285 /* 5.png */; };
 		83D0B9CC193657930066DB81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0B9CB193657930066DB81 /* Foundation.framework */; };
 		83D0B9CE193657930066DB81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0B9CD193657930066DB81 /* CoreGraphics.framework */; };
 		83D0B9D0193657930066DB81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D0B9CF193657930066DB81 /* UIKit.framework */; };
@@ -44,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8313C51619367DC900DB0285 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = ../../../../../Downloads/0.png; sourceTree = "<group>"; };
+		8313C51719367DC900DB0285 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../../../Downloads/1.png; sourceTree = "<group>"; };
+		8313C51A19367DD400DB0285 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../../../../Downloads/2.png; sourceTree = "<group>"; };
+		8313C51B19367DD400DB0285 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../../../../../Downloads/3.png; sourceTree = "<group>"; };
+		8313C51C19367DD400DB0285 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../../../../../Downloads/4.png; sourceTree = "<group>"; };
+		8313C51D19367DD400DB0285 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../../../../../Downloads/5.png; sourceTree = "<group>"; };
 		83D0B9C8193657930066DB81 /* QQISSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQISSO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D0B9CB193657930066DB81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83D0B9CD193657930066DB81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -105,6 +117,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8313C51519367DBD00DB0285 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				8313C51A19367DD400DB0285 /* 2.png */,
+				8313C51B19367DD400DB0285 /* 3.png */,
+				8313C51C19367DD400DB0285 /* 4.png */,
+				8313C51D19367DD400DB0285 /* 5.png */,
+				8313C51619367DC900DB0285 /* 0.png */,
+				8313C51719367DC900DB0285 /* 1.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		83D0B9BF193657930066DB81 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +163,7 @@
 		83D0B9D1193657930066DB81 /* QQISSO */ = {
 			isa = PBXGroup;
 			children = (
+				8313C51519367DBD00DB0285 /* img */,
 				83D0B9FD19365B4F0066DB81 /* fases */,
 				83D0B9FC19365B390066DB81 /* app_delegate */,
 				83D0B9FB19365B250066DB81 /* escolha_de_temas */,
@@ -317,12 +343,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8313C52019367DD400DB0285 /* 4.png in Resources */,
+				8313C51F19367DD400DB0285 /* 3.png in Resources */,
+				8313C51919367DC900DB0285 /* 1.png in Resources */,
+				8313C51819367DC900DB0285 /* 0.png in Resources */,
+				8313C51E19367DD400DB0285 /* 2.png in Resources */,
 				83D0BA0E19365C5F0066DB81 /* FilmesViewController.xib in Resources */,
 				83D0BA21193664060066DB81 /* PlayFilmesViewController.xib in Resources */,
 				83D0BA0319365C0D0066DB81 /* ComidasViewController.xib in Resources */,
 				83D0BA1319365CE00066DB81 /* TelaInicialViewController.xib in Resources */,
 				83D0B9D6193657930066DB81 /* InfoPlist.strings in Resources */,
 				83D0B9DE193657930066DB81 /* Images.xcassets in Resources */,
+				8313C52119367DD400DB0285 /* 5.png in Resources */,
 				83D0BA0819365C2B0066DB81 /* EscolhaTemasViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,6 +585,7 @@
 				83D0B9F6193657930066DB81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83D0B9F7193657930066DB81 /* Build configuration list for PBXNativeTarget "QQISSOTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +594,7 @@
 				83D0B9F9193657930066DB81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
