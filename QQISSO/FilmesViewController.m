@@ -5,7 +5,10 @@
 //  Created by Allan Jhones Ribeiro de Souza on 28/05/14.
 //  Copyright (c) 2014 Allan Jhones Ribeiro de Souza. All rights reserved.
 //
-
+/*
+    ESTA SERA A TELA ONDE ELE(USUARIO) PODERA ESCOLHER AS CATEGORIAS DE FILMES.
+    DEPOIS DE FEITA A ESCOLHA, O USUARIO SERA REDIRECIONADO PARA PLAYFILMESVIEWCONTROLLER
+ */
 #import "FilmesViewController.h"
 #import "PlayFilmesViewController.h"
 @interface FilmesViewController ()
