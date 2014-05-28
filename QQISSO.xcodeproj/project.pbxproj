@@ -27,6 +27,8 @@
 		83D0BA0E19365C5F0066DB81 /* FilmesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0BA0C19365C5F0066DB81 /* FilmesViewController.xib */; };
 		83D0BA1219365CE00066DB81 /* TelaInicialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA1019365CE00066DB81 /* TelaInicialViewController.m */; };
 		83D0BA1319365CE00066DB81 /* TelaInicialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D0BA1119365CE00066DB81 /* TelaInicialViewController.xib */; };
+		83D0BA16193660970066DB81 /* PlayFilmeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA15193660970066DB81 /* PlayFilmeScrollView.m */; };
+		83D0BA19193660F90066DB81 /* PlayComidasScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D0BA18193660F90066DB81 /* PlayComidasScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,10 @@
 		83D0BA0F19365CE00066DB81 /* TelaInicialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelaInicialViewController.h; sourceTree = "<group>"; };
 		83D0BA1019365CE00066DB81 /* TelaInicialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelaInicialViewController.m; sourceTree = "<group>"; };
 		83D0BA1119365CE00066DB81 /* TelaInicialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelaInicialViewController.xib; sourceTree = "<group>"; };
+		83D0BA14193660970066DB81 /* PlayFilmeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayFilmeScrollView.h; sourceTree = "<group>"; };
+		83D0BA15193660970066DB81 /* PlayFilmeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayFilmeScrollView.m; sourceTree = "<group>"; };
+		83D0BA17193660F90066DB81 /* PlayComidasScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayComidasScrollView.h; sourceTree = "<group>"; };
+		83D0BA18193660F90066DB81 /* PlayComidasScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayComidasScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +216,8 @@
 				83D0B9FF19365C0D0066DB81 /* ComidasViewController.h */,
 				83D0BA0019365C0D0066DB81 /* ComidasViewController.m */,
 				83D0BA0119365C0D0066DB81 /* ComidasViewController.xib */,
+				83D0BA17193660F90066DB81 /* PlayComidasScrollView.h */,
+				83D0BA18193660F90066DB81 /* PlayComidasScrollView.m */,
 			);
 			name = comidas;
 			sourceTree = "<group>";
@@ -220,6 +228,8 @@
 				83D0BA0A19365C5F0066DB81 /* FilmesViewController.h */,
 				83D0BA0B19365C5F0066DB81 /* FilmesViewController.m */,
 				83D0BA0C19365C5F0066DB81 /* FilmesViewController.xib */,
+				83D0BA14193660970066DB81 /* PlayFilmeScrollView.h */,
+				83D0BA15193660970066DB81 /* PlayFilmeScrollView.m */,
 			);
 			name = filmes;
 			sourceTree = "<group>";
@@ -325,8 +335,10 @@
 			files = (
 				83D0BA1219365CE00066DB81 /* TelaInicialViewController.m in Sources */,
 				83D0B9DC193657930066DB81 /* AppDelegate.m in Sources */,
+				83D0BA19193660F90066DB81 /* PlayComidasScrollView.m in Sources */,
 				83D0B9D8193657930066DB81 /* main.m in Sources */,
 				83D0BA0219365C0D0066DB81 /* ComidasViewController.m in Sources */,
+				83D0BA16193660970066DB81 /* PlayFilmeScrollView.m in Sources */,
 				83D0BA0D19365C5F0066DB81 /* FilmesViewController.m in Sources */,
 				83D0BA0719365C2B0066DB81 /* EscolhaTemasViewController.m in Sources */,
 			);
